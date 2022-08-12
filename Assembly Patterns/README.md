@@ -2,9 +2,7 @@
 
 <div class="alert alert-success">
 
-# [<span class="octicon octicon-link"></span>](#OT-Lab-1-Assignment-Assembly-Patterns "OT-Lab-1-Assignment-Assembly-Patterns")<span>OT Lab 1 Assignment: Assembly Patterns</span>
-
-**<span>Name: Naghmeh Mohammadifar</span>**
+# [<span class="octicon octicon-link"></span>](#Assembly-Patterns "Assembly-Patterns")<span> Assembly Patterns</span>
 
 </div>
 
@@ -96,10 +94,14 @@ of the both files.</span>
 
 ![](https://i.imgur.com/xgAlo4N.png)
 
-<span>Figure 1: Sample64 assembly</span>
+<p align = "center">
+  <i>Figure 1: Sample64 assembly</i>
+  </p>
 
 ![](https://i.imgur.com/Ihf3OGG.png)  
-<span>Figure 2: Sample32 assembly</span>
+<p align = "center">
+  <i>Figure 2: Sample32 assembly</i>
+ </p>
 
 <span>As you can see, yes they have differencies.</span>
 
@@ -140,7 +142,9 @@ x64 and x86.</span>
 <span>on the other side, I found this cheat sheet:</span>
 
 ![](https://i.imgur.com/niewnjs.png)  
-<span>Figure: calling conventions cheat sheet</span>
+<p align = "center">
+  <i>Figure: calling conventions cheat sheet</i>
+ </p>
 
 <div class="alert alert-info">
 
@@ -215,10 +219,14 @@ linker at run time.</span>
 ![](https://i.imgur.com/maJ09Ay.png)
 
 ![](https://i.imgur.com/Ny82loP.png)  
-<span>Figure: .got and .got.plt</span>
+<p align = "center">
+  <i>Figure: .got and .got.plt</i>
+ </p>
 
 ![](https://i.imgur.com/1gKSa24.png)  
-<span>Figure: .plt</span>
+<p align = "center">
+  <i>Figure: .plt</i>
+ </p>
 
 4.  <span>Symbol tables are created during compilation and they are
     useful for debugging so in stripped mode they will be deleted after
@@ -226,7 +234,9 @@ linker at run time.</span>
     anycase.</span>
 
 ![](https://i.imgur.com/RzvOvh9.png)  
-<span>Figure : symbol tables</span>
+<p align = "center">
+  <i>Figure : symbol tables</i>
+ </p>
 
 <span>As you can see, this tables holds the character representations of
 the symbol names. If the value is nonzero, the value represents a string
@@ -257,7 +267,9 @@ PE files as well:</span>
 <span>First lets look through the assembly:</span>
 
 ![](https://i.imgur.com/CpI7HLb.png)  
-<span>Figure: bin1 assembly</span>
+<p align = "center">
+  <i>Figure: bin1 assembly</i>
+ </p>
 
 <span>This file has 4 major parts.</span>  
 <span>In the first one it will call and use the time function</span>  
@@ -275,10 +287,14 @@ when I compiled it and looked through the assembly of it, mine and the
 original one were identical.</span>
 
 ![](https://i.imgur.com/KtuUuml.png)  
-<span>Figure : C code for reverse bin1</span>
+<p align = "center">
+  <i>Figure : C code for reverse bin1</i>
+ </p>
 
 ![](https://i.imgur.com/fZx4ULn.png)  
-<span>Figure : Assembly for reverse bin1</span>
+<p align = "center">
+  <i>Figure : Assembly for reverse bin1</i>
+ </p>
 
 <span>Actually this was how addresses assigned:</span>
 
@@ -303,7 +319,9 @@ original one were identical.</span>
 **<span>Reverse Bin2:</span>**
 
 ![](https://i.imgur.com/UWbO282.png)  
-<span>Figure : bin2 assembly</span>
+<p align = "center">
+  <i>Figure : bin2 assembly</i>
+ </p>
 
 <span>As you can see, this code is consiste of 2 loops.</span>  
 <span>Some information interesting for me in this assembly:</span>
@@ -319,13 +337,19 @@ original one were identical.</span>
 it:</span>
 
 ![](https://i.imgur.com/p28cev3.png)  
-<span>Figure : C code for reverse bin2</span>
+<p align = "center">
+  <i>Figure : C code for reverse bin2</i>
+ </p>
 
 ![](https://i.imgur.com/OGHDfeo.png)  
-<span>Figure : assembly for reverse bin2</span>
+<p align = "center">
+  <i>Figure : assembly for reverse bin2</i>
+ </p>
 
 ![](https://i.imgur.com/PPd8ntO.png)  
-<span>Figure : The output of bin2 and bin2\_reverse</span>
+<p align = "center">
+  <i>Figure : The output of bin2 and bin2\_reverse</i>
+ </p>
 
 **<span>Reverse Bin3:</span>**
 
@@ -334,7 +358,9 @@ it:</span>
 that they are the same.</span>
 
 ![](https://i.imgur.com/W0WJbDE.png)  
-<span>Figure : bin3 assembly</span>
+<p align = "center">
+  <i>Figure : bin3 assembly</i>
+ </p>
 
 <span>Then I will get the hash of these two file and compare
 them:</span>
@@ -358,12 +384,16 @@ wouldn’t be identical.</span>
 <span>Also I checked using diff command:</span>
 
 ![](https://i.imgur.com/IRihPYM.png)  
-<span>Figure: diff command checking</span>
+<p align = "center">
+  <i>Figure: diff command checking</i>
+ </p>
 
 **<span>Reverse Bin4:</span>**
 
 ![](https://i.imgur.com/urRFmRs.png)  
-<span>Figure : bin4 assembly</span>
+<p align = "center">
+  <i>Figure : bin4 assembly</i>
+ </p>
 
 <span>Actually this one was really easy and examined was the input value
 even or odd . The only interesting parts there was:</span>
@@ -386,16 +416,24 @@ ran it, I had the same output. Also the assembly was the same as the
 original one.</span>
 
 ![](https://i.imgur.com/Ie2ipnc.png)  
-<span>Figure : C code for reverse bin1</span>
+<p align = "center">
+  <i>Figure : C code for reverse bin1</i>
+ </p>
 
 ![](https://i.imgur.com/NWV3pXy.png)  
-<span>Figure : assembly for reverse bin2</span>
+<p align = "center">
+  <i>Figure : assembly for reverse bin2</i>
+ </p>
 
 ![](https://i.imgur.com/6GazI2D.png)  
-<span>Figure : graph base reverse bin2</span>
+<p align = "center">
+  <i>Figure : graph base reverse bin2</i>
+ </p>
 
 ![](https://i.imgur.com/8ZIQzCV.png)  
-<span>Figure : The output of bin2 and bin2\_reverse</span>
+<p align = "center">
+  <i>Figure : The output of bin2 and bin2\_reverse</i>
+ </p>
 
 **<span>Reverse task1.exe:</span>**
 
@@ -403,13 +441,17 @@ original one.</span>
 us:</span>
 
 ![](https://i.imgur.com/6iDII63.png)  
-<span>Figure : strings found in the file</span>
+<p align = "center">
+  <i>Figure : strings found in the file</i>
+ </p>
 
 <span>Then I opened the file and search for the string “Username” to
 take me to that part:</span>
 
 ![](https://i.imgur.com/uWbWFdS.png)  
-<span>Figure : username and password</span>
+<p align = "center">
+  <i>Figure : username and password</i>
+ </p>
 
 <span>Actually I tried this value and it was the username and password
 and then I tried to find where and how this values are used cause they
